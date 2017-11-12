@@ -1,14 +1,50 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8">
-<title>国宝</title>
-</head>
-<body>
-	<h1>欢迎来到国宝网站</h1>
+<!-- index.html -->
+{% extends 'base.html' %}
+{% block title%}国宝网站全力开发中{% endblock %}
+{%block style %}
+<!-- 写head中的style标识入去 -->
+	<link rel="stylesheet" type="text/css" href="static/css/1.css"/>
+	<style type='text/css'>
+	
+	</style>
+{% endblock %}
+<!-- 这里是header.html代码区 -->
+{% block headmessage %}
+<!-- 这里写网页头部 -->
+ 
+	<div class='contentheader'>
+		<div class="one">
+		<form action="get" name="music">
+			<label class="music" >网易云音乐：</label>
+			<input class="musicinput" type="text" name="musicinput"/>
+		</form>
+			<h4>{{url}}</h4>
+		
+		</div>
+		<div class="two">
+			
+		</div>
+		<div class="three">
+			
+		</div>
+	 </div>
+{% endblock %}
+
+{% block content%}
+	<!-- 这里写网页的中间部分 -->
+	<form action="/guobao" method="post">
+	<p>手机号码：<input type="text" name="phone"></p>
+	<p><input type="submit" value="抽奖" ></p>
+	</form>
+	<ul>
+  <li> Item one </li>
+  <li> Item two </li>
+	</ul>
+
 	<hr>
-	{{posts}}
-	<hr>
-	<h3>现在美国时间：{{now}}</h3>
-</body>
-</html>
+{% endblock %}
+<!-- 这里是footer.html代码区 -->
+
+
+
+

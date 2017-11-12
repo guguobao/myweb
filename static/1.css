@@ -1,0 +1,19 @@
+
+* {
+	padding:0;
+	margin:0;
+}
+.header{
+	heigth:0px;
+	background-color:#FFFFFF;
+	
+}
+.inner_c{
+	width: 1030px;
+	margin: 0 auto;
+}
+.header .inner_c .logo{
+	width: 270px;
+	heigth: 0px;
+	background-repeat:no-repeat;
+}

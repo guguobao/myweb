@@ -1,0 +1,425 @@
+			#luenwo{
+			height: 500px;width: 1300px;
+				margin: 0 auto;
+
+		           }
+		           #cv{
+		           		height: 500px; width: 1180px;
+		           }
+		           
+			* {
+				padding: 0;
+				margin: 0;
+			}
+			.header{
+				width:auto;
+				height:100px;
+				
+			}
+			.header .logo{
+				margin-left:0px;
+				width:300px;
+				height:100px;
+			}
+		    .header .mychat{
+				width:100px;
+				height:100px;
+				float:right;
+			
+			}
+			.header .login{
+				width:54px;
+				height:25px;
+				background-color:#AADDAA;
+				float:right;
+				margin-top:10px;
+				margin-right:30px;
+				
+			}
+			.header .resigned{
+				width:54px;
+				height:25px;
+				background-color:#AADDAA;
+				float:right;
+				margin-top:45px;
+				margin-right:-54px;
+				
+			}
+			.contentheader{
+				width:auto;
+				height:600px;
+				background-color:#FFFFF0;
+			}
+			.contentheader .one{
+				width:auto;
+				height:200px;
+				background-color:#FFFFF0;
+			}
+			.contentheader .one .music{
+				font-size :40px;
+				margin-left:200px;
+				margin-top:80px;
+				height:40px;			
+			}
+			.contentheader .one .musicinput{
+				margin-left:100px;
+				margin-top:70px;
+				height:30px;		
+				width:400px
+			}
+			
+			.contentheader .two{
+				width:auto;
+				height:200px;
+				background-color:#FFFFF0;
+			}
+			.contentheader .three{
+				width:auto;
+				height:200px;
+				background-color:#FFFFF0;
+			}
+			.last{
+				background-color:#504E4F;
+				height: 50px;/*margin-top: 200px;*/
+			}
+			.last .beian{
+				display: block;font-size: 25px;color: #FFFFFF;line-height: 50px;float: right;
+			}
+			
+			
+			
+			
+			
+			
+			
+			
+			
+		/*
+			.shaoshao {
+				margin: 0 auto;
+				height: 70px;
+				width: 1200px;
+				/*   background-image: url(2.png);*/
+				background-repeat: no-repeat;
+				background-image: url(国宝集团.png);
+				/*  float: left;*/
+			}
+			
+			.shaoshao .weixin {
+				float: right;
+				background-image: url(2.png);
+				width: 95px;
+				height: 70px;
+			}
+			
+			.inner_c {
+				width: 1030px;
+				margin: 0 auto;
+				/*//juzhongyong*/
+			}
+			
+		
+			.header .inner_c .logo {
+				/*float: left;*/
+				width: 270px;
+				height: 0px;
+				/*background-image: url(2.png);*/
+				/*				background-image: url(国宝集团.png);*/
+				background-repeat: no-repeat;
+			}
+			
+			.header .inner_c .nav ul {
+				list-style: none;
+				/*qudiaoyidian*/
+			}
+			
+			.header .inner_c .nav ul li {
+				float: left;
+				height: 58px;
+				width: 100px;
+				border-left: 1px solid #FFFFFF;
+			}
+			
+			.header .inner_c .nav ul li {
+				/*	border-left:1px solid #252947;*/
+				background-color: #FFFFFF;
+			}
+			
+			.header .inner_c .nav ul li a {
+				height: 58px;
+				display: block;
+				color: #006AD0;
+				text-align: center;
+				width: 100px;
+				line-height: 58px;
+				text-decoration: none;
+				font-family: "微软雅黑";
+				font-size: 15px;
+			}
+			
+			.header .inner_c .nav ul li.current {
+				background-color: #FFFFFF;
+				margin-left: 130px;
+			}
+			
+			.header .inner_c .nav ul li a:hover {
+				font-weight: bold;
+				background-color: #FFFFFF;
+				color: red;
+			}
+			
+			.header .inner_c .jimr {
+				float: left;
+				margin-left: 48px;
+				margin-top: 12px;
+				height: 34px;
+				width: 100px;
+				background-color: cadetblue;
+				border-radius: 4px;
+			}
+			
+			.header .inner_c .jimr a {
+				display: block;
+				width: 100px;
+				height: 34px;
+				line-height: 34px;
+				text-decoration: none;
+				text-align: center;
+				background-color: #38B774;
+				color: #FFFFFF;
+				border-radius: 4px;
+			}
+			
+			.c1 {
+				clear: both;
+			}
+			
+			.banner {
+				background-image: url(高州.fw.png);
+				background-repeat: no-repeat;
+				background-position: top center;
+				height: 600px;
+				width: 1161px;
+				margin: 0 auto;
+				/*margin-left: 5px;*/
+			}
+			
+			.content2 {
+				height: 50px;
+				/*width: 1000px;*/
+				/*margin: 0 auto;*/
+				background-color: #90AAC1;
+				margin-top: 20px;
+				margin-bottom: 20px;
+			}
+			
+			.content2 a {
+				display: block;
+				font-size: 15px;
+				line-height: 50px;
+				padding-left: 100px;
+				color: floralwhite;
+				text-decoration: none;
+			}
+			
+			.content2 a:hover {
+				font-size: 20px;
+				color: red;
+				background-color: #FFFFFF;
+			}
+			
+			.xianfuren {
+				width: 1000px;
+				height: 600px;
+				margin: 0 auto;
+				/*background-image: url(颜色.jpg);*/
+			}
+			
+			.xianfuren .jinben {
+				height: 35px;
+				width: 150px;
+				background-image: url(颜色.jpg);
+				font-size: 25px;
+				line-height: 30px;
+				display: block;
+			}
+			
+			.xianfuren .genduo {}
+			
+			.xianfuren .em {
+				text-indent: 2em;color: firebrick;
+				line-height: 35px;
+			}
+			
+			.content {
+				height: 3400px;
+				width: 1200px;
+				margin: 0 auto;
+			}
+			
+			.content .product {
+				width: 1180px;
+				height: 400px;
+				margin: 0 auto;
+			}
+			
+			.content .product .mingzhu {
+				height: 55px;
+				background-color:#DBDBEA;
+			}
+			
+			.content .product .mingzhu .ming1 {
+				display: block;
+				height: 55px;
+				line-height: 55px;
+				font-size: 15px;
+				width: 120px;
+				margin-left: 50px;
+				background-color: #E5E5E5;
+				color: black;
+				text-decoration: none;
+			}
+			
+			.content .product .mingzhu .ming1:hover {
+				color: red;
+				background-color: #FFFFFF;
+			}
+			
+			.content .product ul {
+				list-style: none;
+				text-decoration: none;
+			}
+			
+			.content .product ul li {
+				float: left;
+				margin-top: 26px;
+				margin-right: 39px;
+			}
+			
+			.content .product ul li img {
+				height: 247px;
+				width: 336px;
+			}
+			
+			.content .product ul li.last {
+				margin-right: 0px;
+			}
+			
+			.content .product ul li a {
+				text-decoration: none;
+				color: forestgreen;font-size: 25px;
+				text-align: center;
+				display: block;
+			}
+			
+			.content .shiping {
+				height: 500px;
+				width: 1180px;
+				margin: 0 auto;
+			}
+			
+			.content .shiping1{
+	         padding-left:80PX ;
+	         width: 500px;
+	         height: 380px;
+	         float: left;list-style: none;
+			}
+			.content .shiping ul li a{
+				text-decoration: none;
+				color: black;
+				text-align: center;
+				display: block;
+			}
+			.content .lianbo{
+				height: 500px;
+				width: 1180px;
+				margin: 0 auto;
+			}
+			.content .lianbo .list-point {
+				width: 400px;
+	            height: 380px;
+	         float: left;list-style: none;
+			}
+			.content .lianbo .list-point img{
+				width: 400px;height: 180px;
+			}
+			.content .lianbo .list-point li a{
+				text-decoration: none;padding-left:25px ;
+				display: block;line-height: 35px;color: black;font-size: 15px;
+			}
+			.content .lianbo .list-point .frist1 a{
+				font-size: 22px;color: skyblue;padding-left: 95px;
+			}
+			.content .lianbo .list-point1 img{
+				width: 400px;height: 180px;
+			}
+			.content .lianbo .list-point1{
+				width: 400px;
+	        /* height: 380px;*/
+	         float: right;list-style: none;
+			}
+			.content .lianbo .lianjie .frist2 .fengjing a{
+				text-decoration: none;padding-left:25px ;
+				display: block;line-height: 35px;color: deepskyblue;font-size: 15px;
+			}
+			.content .xinwen{
+				height: 500px;
+				width: 500px;
+				padding-left: 25px;
+			}
+			.content .xinwen ul{
+				list-style: none;
+				text-decoration: none;
+			}
+			.content .xinwen ul .img1{
+				width: 500px;height: 130px;
+			}
+			.content .xinwen ul li a{
+				text-decoration: none;padding-left:75px ;
+				display: block;line-height: 35px;color: black;font-size: 15px;
+			}
+			.content .xinwen ul li span{
+				color: #F08080;font-size: 10px;
+			}
+			.content .pancun{
+				height: 50px;width: 1180px;background-color: #DBDBEA;margin-bottom: 15px;
+				
+			}.content .pancun .left{
+				padding-left:100px;
+				line-height: 50px;font-size: 25px;
+				text-decoration: none;color: seagreen;
+			}
+			.content .pancun .right{
+				display: block;padding-right:50px;
+				line-height: 50px;font-size: 25px;
+				text-decoration: none;color: seagreen;float: right;
+			}
+		
+			.content .c{
+				height: 370px;
+				width: 1180px;
+				}
+			.content .c .c3 img{
+				height: 300px;
+				width: 400px;
+				/*float: left;*/
+			}.content .c .c4 img{
+				height: 300px;
+				width: 400px;
+				/*float: left;*/
+			}
+			.content .c .c3{
+				float: left;
+				height: 350px;
+				width: 400px;
+			}.content .c .c4{
+				float: right;
+				height: 350px;
+				width: 400px;
+			}
+			.content .c .c3 p a{
+				padding-left: 170px;display: block;line-height: 15px;
+			font-size: 25px;text-decoration: none;color: salmon;margin-top: 10px;
+			}
+			
+			*/

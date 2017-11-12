@@ -1,0 +1,21 @@
+<!-- base.html -->
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<title>
+		{% block title %}{% endblock %}
+	</title>
+	{% block style %}{% endblock %}
+</head>
+<body>
+	{% include 'header.html'%}
+	<!-- 通过导入模板 -->
+	{% block headmessage %}{% endblock %}
+	<hr>
+	{% block content %}{% endblock %}
+	<hr>
+	<h4 style="color: #AAAAAA;">哗 </h4>
+	{% include 'footer.html'%}<!-- 导入footer.html -->
+</body>
+</html>
