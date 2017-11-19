@@ -17,15 +17,26 @@
 		<form action="get" name="music">
 			<label class="music" >网易云音乐：</label>
 			<input class="musicinput" type="text" name="musicinput"/>
+			<input class='submit' type='submit' value='提交'/>
 		</form>
-			<h4>{{url}}</h4>
-		
+			<h4>{{urlmusic}}</h4>
+	
 		</div>
 		<div class="two">
-			
+			<form action="get" name="qiantuwang">
+			<label class="qiantuwang" >千图网图片地址：</label>
+			<input class="qiantuwanginput" type="text" name="qiantuwanginput"/>
+			<input class='submit' type='submit' value='提交'/>
+		</form>
+					<h4>{{urlqiantuwang}}</h4>
 		</div>
 		<div class="three">
-			
+			<form action="get" name="baidu">
+			<label class="baidu" >百度文件地址：</label>
+			<input class="baiduinput" type="text" name="baiduinput"/>
+			<input class='submit' type='submit' value='提交'/>
+		</form>
+					<h4>{{urlbaidu}}</h4>
 		</div>
 	 </div>
 {% endblock %}
